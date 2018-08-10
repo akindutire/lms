@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'amble';
+    src:url(../fonts/Amble-Regular-webfont.ttf) format('truetype');
+}
+
+	/*TABLES*/
+	
+	
+	#column_w530 table{
+		margin:0 auto;
+		margin-left: 10px;
+		border-bottom:0px;
+		border-top:0px;
+		border-collapse:collapse;
+		table-layout: auto;
+		width: 100%;
+		text-align: center;
+
+		}
+	#column_w530 tr{
+		padding:2px;
+		width:100%;
+		color:black;
+		font-family:amble;
+		font-size:14px;
+		}
+	
+	
+	tr:nth-child(odd){
+		background:rgba(243, 243, 243, 0.89);
+		}
+	
+	tr:nth-child(even){
+		background:white;
+		}
+		
+	#column_w530 tr td{
+		font-family:amble;
+		border-right:1px solid white;
+		margin:1px;
+		padding: 7px;
+		}
+	th{
+		font-weight:100;
+		padding: 7px;
+		border-radius: 4px 4px 0px 0px;
+		border-right:1px solid white;
+		color:white; 
+		font-family:amble;
+		background:-webkit-linear-gradient(rgba(0, 90, 128, 0.95),rgba(0, 133, 190, 0.95));
+		background:-moz-linear-gradient(rgba(0, 90, 128, 0.95),rgba(0, 133, 190, 0.95));
+		background:-o-linear-gradient(rgba(0, 90, 128, 0.95),rgba(0, 133, 190, 0.95));
+		}
+
+	
+	/*TABLES*/
